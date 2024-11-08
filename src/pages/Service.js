@@ -38,20 +38,20 @@ const Service = () => {
                 <Container fluid >
                     <Row>
                         <Col lg='4'>
-                            <img src={portrait2} className='img-fluid rounded-3 shadow' />
+                            <img src={portrait2} className='img-fluid rounded-3 shadow' alt="Portrait-img" />
                         </Col>
                         <Col lg='8'>
-                            <img src={portrait3} className='img-fluid rounded-3 shadow' />
+                            <img src={portrait3} className='img-fluid rounded-3 shadow' alt="Portrait-img" />
                             <p className="text-end mt-4 fs-2 text-warning ">Oil on Canvas of a Little Girl</p>
                             <p className="text-end mt-1 fs-5 text-secondary">This portrait was created in 2015 for my brother’s daughter, Emily Morgan.</p>
                         </Col>
                         <Col lg='8 mt-5'>
-                            <img src={portrait4} className='img-fluid rounded-3 shadow' />
+                            <img src={portrait4} className='img-fluid rounded-3 shadow' alt="Portrait-img" />
                             <p className="mt-4 fs-2 text-warning ">Watercolor Portrait</p>
                             <p className="fs-5 text-secondary">Jane Williams, my friend and colleague, asked me to paint her portrait and this is what I did.</p>
                         </Col>
                         <Col lg='4 mt-5'>
-                            <img src={portrait5} className='img-fluid rounded-3 shadow' />
+                            <img src={portrait5} className='img-fluid rounded-3 shadow' alt="Portrait-img" />
                         </Col>
                     </Row>
                 </Container>

@@ -17,7 +17,7 @@ const Home = () => {
                 <Container>
                     <Row>
                         <Col lg='6'>
-                            <img src={brand} className=' brand' />
+                            <img src={brand} className=' brand' alt='brand' />
                         </Col>
                     </Row>
                 </Container>
@@ -55,7 +55,7 @@ const Home = () => {
                         <Col lg='3' sm="12" className='boxmargin mt-5'>
                             <div className='box rounded shadow'>
                                 <div className='text-center my-5 py-5'>
-                                    <img src={user} />
+                                    <img src={user} alt='user' />
                                     <h3>Portrait</h3>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const Home = () => {
                         <Col lg='3' sm="12" className='boxmargin mt-5'>
                             <div className='box rounded shadow'>
                                 <div className='text-center my-5 py-5'>
-                                    <img src={leaf} />
+                                    <img src={leaf} alt='leaf' />
                                     <h3>Portrait</h3>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Home = () => {
                         <Col lg='3' sm="12" className='boxmargin mt-5'>
                             <div className='box rounded shadow'>
                                 <div className='text-center my-5 py-5'>
-                                    <img src={apple} />
+                                    <img src={apple} alt='apple' />
                                     <h3>Portrait</h3>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ const Home = () => {
                         <Col lg='3' sm="12" className='boxmargin mt-5'>
                             <div className='box rounded shadow'>
                                 <div className='text-center my-5 py-5'>
-                                    <img src={house} />
+                                    <img src={house} alt='house' />
                                     <h3>Portrait</h3>
                                 </div>
                             </div>
